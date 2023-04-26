@@ -1,7 +1,4 @@
-﻿using CallMePhonyWebAPI.Models.Enums;
-using CallMePhonyWebAPI.Models;
-
-namespace CallMePhonyWebAPI.DTO.Requests
+﻿namespace CallMePhonyEntities.DTO.Requests
 {
     public class RegisterRequest
     {

@@ -1,8 +1,7 @@
-﻿using CallMePhonyWebAPI.Models.Enums;
-using CallMePhonyWebAPI.Models;
-using Microsoft.EntityFrameworkCore;
+﻿using CallMePhonyEntities.Enums;
+using CallMePhonyEntities.Models;
 
-namespace CallMePhonyWebAPI.DTO.Responses
+namespace CallMePhonyEntities.DTO.Responses
 {
     public class UserResponse : ResponseBase
     {
@@ -21,7 +20,7 @@ namespace CallMePhonyWebAPI.DTO.Responses
 
         public UserResponse() { }
 
-        public UserResponse(User user) 
+        public UserResponse(User user)
         {
             Id = user.Id;
             FirstName = user.FirstName;

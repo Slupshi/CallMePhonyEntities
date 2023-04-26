@@ -1,6 +1,6 @@
 ﻿using CallMePhonyEntities.Enums;
 
-namespace CallMePhonyWebAPI.Models
+namespace CallMePhonyEntities.Models
 {
     public class Site : ModelBase, ISearchableObject
     {

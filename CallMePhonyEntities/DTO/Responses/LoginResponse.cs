@@ -1,6 +1,4 @@
-﻿using CallMePhonyWebAPI.Models;
-
-namespace CallMePhonyWebAPI.DTO.Responses
+﻿namespace CallMePhonyEntities.DTO.Responses
 {
     public class LoginResponse : ResponseBase
     {

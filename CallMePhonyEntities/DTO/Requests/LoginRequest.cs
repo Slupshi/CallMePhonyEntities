@@ -1,4 +1,4 @@
-﻿namespace CallMePhonyWebAPI.DTO.Requests
+﻿namespace CallMePhonyEntities.DTO.Requests
 {
     public class LoginRequest
     {

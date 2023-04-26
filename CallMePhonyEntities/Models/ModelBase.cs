@@ -1,4 +1,4 @@
-﻿namespace CallMePhonyWebAPI.Models
+﻿namespace CallMePhonyEntities.Models
 {
     public class ModelBase
     {

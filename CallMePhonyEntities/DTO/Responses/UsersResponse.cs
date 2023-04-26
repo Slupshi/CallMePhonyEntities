@@ -1,4 +1,4 @@
-﻿namespace CallMePhonyWebAPI.DTO.Responses
+﻿namespace CallMePhonyEntities.DTO.Responses
 {
     public class UsersResponse : ResponseBase
     {

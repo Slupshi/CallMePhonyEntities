@@ -1,6 +1,6 @@
-﻿using CallMePhonyWebAPI.Models;
+﻿using CallMePhonyEntities.Models;
 
-namespace CallMePhonyWebAPI.DTO
+namespace CallMePhonyEntities.DTO
 {
     public class ResponseBase : ModelBase
     {
