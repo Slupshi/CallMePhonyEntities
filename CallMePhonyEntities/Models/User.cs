@@ -18,6 +18,8 @@ public class User : ModelBase, ISearchableObject
     public virtual Service? Service { get; set; }
     public virtual Site? Site { get; set; }
 
+    public User() { }
+
     public User(UserResponse userResponse)
     {
         Id = userResponse.Id;
