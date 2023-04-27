@@ -1,4 +1,5 @@
-﻿using CallMePhonyEntities.Enums;
+﻿using CallMePhonyEntities.DTO.Responses;
+using CallMePhonyEntities.Enums;
 
 namespace CallMePhonyEntities.Models;
 
@@ -16,4 +17,20 @@ public class User : ModelBase, ISearchableObject
 
     public virtual Service? Service { get; set; }
     public virtual Site? Site { get; set; }
+
+    public User(UserResponse userResponse)
+    {
+        Id = userResponse.Id;
+        FirstName = userResponse.FirstName;
+        LastName = userResponse.LastName;
+        UserName = userResponse.UserName;
+        Email = userResponse.Email;
+        Phone = userResponse.Phone;
+        MobilePhone = userResponse.MobilePhone;
+        Gender = userResponse.Gender;
+        UserType = userResponse.UserType;
+        Service = userResponse.Service;
+        Site = userResponse.Site;
+
+    }
 }

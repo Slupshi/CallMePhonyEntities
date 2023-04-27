@@ -18,8 +18,6 @@ namespace CallMePhonyEntities.DTO.Responses
 
         public string? TemporaryPassword { get; set; }
 
-        public UserResponse() { }
-
         public UserResponse(User user)
         {
             Id = user.Id;
